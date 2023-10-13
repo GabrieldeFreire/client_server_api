@@ -24,3 +24,19 @@ Utilizar context
 - Salvar a cotação atual em um arquivo "cotacao.txt" no formato: Dólar: {valor}
 
 Os 3 contextos deverão retornar erro nos logs caso o tempo de execução seja insuficiente.
+
+
+# Comandos
+
+### Iniciar server
+```bash
+make run-server
+```
+### Parar server
+```bash
+make stop-server
+```
+### Executar cliente
+```bash
+make run-client
+```

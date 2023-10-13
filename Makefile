@@ -11,7 +11,7 @@ run-server:
 run-client:
 	go run $(CLIENT_PATH)
 
-shutdown-server:
+stop-server:
 	@ pkill -P $(shell cat $(SERVER_PID))
 
 
